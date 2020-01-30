@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+.App{
+  display: flex;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+.App-main{
+  width: 100%;
+}
+header{
+  height: 30px;
+  background-color: #d97f26;
+  padding: 10px;
+}
+ol{
+  list-style: none;
+}
+#left{
+  font-family: arial;
+  float: left;
+  width: 60px;
+}
+#sidebar{
+  min-width: 60px;
+  max-width: 60px;
+  float: right;
+  background-color: #d97f26;
+}
+#sbicon{
+  font-size: 1.2em;
+  color: #d97f26;
+  position: relative;
+  left: 25%;
+  top: 25%;
+}
+#content{
+  height: 100%;
+}
+#link{
+  background-color: white;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  
+}
+ul{
+  list-style-type: none;
+}

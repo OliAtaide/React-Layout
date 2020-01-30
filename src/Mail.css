@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  #messages{
+    min-width: 200px;
+    max-width: 200px;
+    padding: 10px;
+  }
+  #message{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #photo{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: grey;
+  }
+  #mail{
+    color: grey; 
+  }
+  #text{
+    font-family: Tahoma;
+    width: 70px;
+  }
+  #text p{
+      font-size: 12px;
+  }
